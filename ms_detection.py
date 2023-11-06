@@ -26,7 +26,7 @@ def anomaly_scores_to_list(trace):
 
 def compute_rc_from_anomaly_scores(anomaly_scores, state_sequences):
     '''
-    Compute the root causes for the given trances and their anomaly scores
+    Compute the root causes for the given traces and their anomaly scores
     '''
     root_causes = []
     rc_indices = []
